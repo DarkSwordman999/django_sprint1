@@ -1,24 +1,38 @@
 <div align="center">
 
-<h1>Django Sprint 1 - Blogicum</h1>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20&height=180&section=header&text=Blogicum&fontSize=70&fontAlignY=35&desc=Django%20Blog%20Platform%20%7C%20Yandex%20Practicum&descAlignY=55&descSize=18" alt="Banner" width="100%">
 
-<p>Учебный проект — блог-платформа «Блогикум».<br>
-Первый спринт: статическая вёрстка страниц.<br>
-Курс «Python-разработчик» Яндекс Практикума.</p>
+<img src="https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+<img src="https://img.shields.io/badge/Django-5.1.1-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django">
+<img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite">
+<img src="https://img.shields.io/badge/Bootstrap-5.0.1-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap">
+
+<br>
+
+<img src="https://img.shields.io/badge/Pytest-8.3.3-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white" alt="Pytest">
+<img src="https://img.shields.io/badge/pytest--django-4.9.0-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white" alt="pytest-django">
+<img src="https://img.shields.io/badge/Flake8-7.1.1-yellow?style=for-the-badge&logo=python&logoColor=white" alt="Flake8">
+<img src="https://img.shields.io/badge/Yandex-Practicum-red?style=for-the-badge&logo=yandex&logoColor=white" alt="Yandex Practicum">
+
+<br><br>
+
+<h2>🐍 Blogicum — блог-платформа на Django</h2>
+
+<p><b>Учебный проект в рамках курса «Python-разработчик» от Яндекс Практикума</b></p>
 
 </div>
 
 <hr>
 
-<h2>О проекте</h2>
+<h2>📖 О проекте</h2>
 
-<p><b>Блогикум</b> — площадка для ведения блогов. Пользователи смогут публиковать посты, привязывать их к категориям и просматривать записи других авторов.</p>
+<p><b>Blogicum</b> — площадка для ведения блогов. Пользователи смогут публиковать посты, привязывать их к категориям и просматривать записи других авторов.</p>
 
 <p>В первом спринте реализована <b>статическая вёрстка страниц</b> с использованием Bootstrap. Django-логика (модели, вью, шаблоны) будет добавлена на следующих этапах курса.</p>
 
 <hr>
 
-<h2>Что уже сделано</h2>
+<h2>✅ Что уже сделано</h2>
 
 <ul>
   <li>Свёрстана лента записей — <code>index.html</code>.</li>
@@ -32,7 +46,7 @@
 
 <hr>
 
-<h2>Что в разработке</h2>
+<h2>🚧 Что в разработке</h2>
 
 <ul>
   <li>Перенос вёрстки в Django-шаблоны.</li>
@@ -44,7 +58,7 @@
 
 <hr>
 
-<h2>Технологии</h2>
+<h2>🛠️ Технологии</h2>
 
 <div align="center">
 
@@ -73,7 +87,7 @@
 
 <hr>
 
-<h2>Структура проекта</h2>
+<h2>📂 Структура проекта</h2>
 
 <pre><code>django_sprint1/
 ├── blogicum/                 # Django-проект (settings, urls, wsgi)
@@ -97,7 +111,7 @@
 
 <hr>
 
-<h2>Запуск</h2>
+<h2>🚀 Запуск</h2>
 
 <h3>Требования</h3>
 <ul>
@@ -140,7 +154,7 @@ source venv/bin/activate</code></pre>
 
 <hr>
 
-<h2>Тестирование</h2>
+<h2>🧪 Тестирование</h2>
 
 <p>Тесты запускаются через <b>pytest</b> с плагином <b>pytest-django</b>. Конфигурация — в <code>pytest.ini</code>.</p>
 
@@ -155,7 +169,7 @@ source venv/bin/activate</code></pre>
 
 <hr>
 
-<h2>Линтинг</h2>
+<h2>🧹 Линтинг</h2>
 
 <p>Код проверяется линтером <b>flake8</b> с плагинами <code>flake8-docstrings</code> и <code>pep8-naming</code>. Настройки — в файле <code>.flake8</code>.</p>
 
@@ -165,13 +179,13 @@ source venv/bin/activate</code></pre>
 
 <hr>
 
-<h2>Лицензия</h2>
+<h2>📄 Лицензия</h2>
 
 <p>Файл <a href="./LICENSE">LICENSE</a> присутствует в репозитории, но пока пуст. Лицензия будет добавлена позже.</p>
 
 <hr>
 
-<h2>Автор</h2>
+<h2>👤 Автор</h2>
 
 <div align="center">
 
@@ -187,7 +201,7 @@ source venv/bin/activate</code></pre>
 
 <div align="center">
 
-<h3>Проект создан в рамках курса «Python-разработчик» от <a href="https://practicum.yandex.ru/">Яндекс Практикума</a></h3>
+<h3>🎓 Проект создан в рамках курса «Python-разработчик» от <a href="https://practicum.yandex.ru/">Яндекс Практикума</a></h3>
 
 <p><i>Учебный проект. Создан в образовательных целях.</i></p>
 
